@@ -12,7 +12,7 @@
 | Platform | Download |
 |----------|----------|
 | Windows | [DCade-Setup.exe](https://github.com/MizenF/DCade-Production/releases/latest/download/DCade-Setup.exe) |
-| macOS | [DCade-Setup.dmg](https://github.com/MizenF/DCade-Production/releases/latest/download/DCade-Setup.dmg) |
+| macOS | Coming Soon |
 
 Or visit the [Releases](https://github.com/MizenF/DCade-Production/releases) page.
 
