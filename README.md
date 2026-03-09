@@ -1,96 +1,64 @@
 # D'Cade
 
-> A personal system-level presence for Windows & macOS.
-> It's not an app you "open" — it's always there, quiet by default, instantly accessible when needed.
+A system-level presence for Windows — always there, never in the way.
 
----
+D'Cade is not an app you "open." It lives quietly on your machine, ready when you need it, invisible when you don't.
 
 ## Download
 
-**Latest: v1.1.0**
+| Platform | Status | Link |
+|----------|--------|------|
+| **Windows** | v2.0.0 | [DCade-Setup.exe](https://github.com/MizenF/DCade-Production/releases/latest/download/DCade-Setup.exe) |
+| **macOS** | Coming Soon | — |
 
-| Platform | Download |
-|----------|----------|
-| Windows | [DCade-Setup.exe](https://github.com/MizenF/DCade-Production/releases/latest/download/DCade-Setup.exe) |
-| macOS | Coming Soon |
+**Requirements:** Windows 10+ (x64)
 
-Or visit the [Releases](https://github.com/MizenF/DCade-Production/releases) page.
+## What's New in v2.0.0
 
----
+**Commander/Agent Architecture** — Complete UI overhaul with the new Bar navigation system. Click the Orb to reveal a sliding status bar with quick access to Catalogue, Teams, Notifications, and Settings.
+
+**Pro Subscription Management** — Full lifecycle support: upgrade via Google OAuth, manage billing, cancel anytime from Settings.
+
+**Speech-to-Text** — Hold `Ctrl+Shift+`` to dictate. Context-aware routing sends transcriptions to the right place (Commander, Agent, or Editor).
+
+**Security Hardened** — 6 rounds of security audits covering payment webhooks, authentication, CORS, CSP, and data encryption. 100+ issues identified and resolved.
+
+**Teams Integration** — Enterprise knowledge bases with RAG-powered Q&A, accessible from the desktop app via the Bar.
+
+## Quick Start
+
+1. Download and run **DCade-Setup.exe**
+2. D'Cade starts automatically with your system
+3. Press `Ctrl+`` to open, `Esc` to dismiss
+4. Click the Orb to browse your Heads and Notes
 
 ## Features
 
 ### Free
+- Markdown note-taking with Catalogue navigation
+- Up to 12 Heads (organizational contexts)
+- AES-256-GCM local encryption
+- Global hotkey (`Ctrl+``)
+- Auto-start with system
 
-- Floating Orb with 4-corner dynamic Panel layout
-- Note editing with Markdown heading navigation
-- Local encrypted storage (AES-256-GCM)
-- Auto-hide after 10 seconds of inactivity
-- Up to 12 Heads (topics/contexts)
-
-### Pro — $8/month
-
+### Pro ($8/month or $70/year)
+- Emotion-Orb (ambient color based on time/theme)
+- AI Command Bar (intent-based routing)
+- Speech-to-Text dictation
+- Cloud backup (end-to-end encrypted)
+- Multi-device sync
 - Unlimited Heads
-- Emotion-Orb: time-aware and theme-aware coloring
-- AI Commands: Speech-to-Text, Context Restore, Time Navigation
-- Cloud Backup with end-to-end encryption
-- Multi-Device Sync (single-device-online)
 
-### Teams — Enterprise
-
-- Team Knowledge Bases with document upload
-- RAG-powered Q&A across your team's knowledge
-- Member management and role-based access
-- Audit logs and subscription management
-- Web App: [teams.dcade.ai](https://teams.dcade.ai)
-
----
-
-## Quick Start
-
-| Action | Description |
-|--------|-------------|
-| **Ctrl+`** (Win) / **Cmd+`** (Mac) | Global toggle — show or hide |
-| **Ctrl+`** long press | Start voice recording (Pro) |
-| Click Orb | Expand Catalogue (heading list) |
-| Click heading | Jump to position in Note |
-| Double-click Orb | Open CommandBox for AI commands (Pro) |
-| Drag Orb | Move window position |
-| Esc | Collapse Panel / Close |
-| Right-click tray | Open / Close / Quit |
-
----
-
-## System Requirements
-
-| Platform | Requirement |
-|----------|-------------|
-| Windows | Windows 10 or later (x64) |
-| macOS | macOS 11 Big Sur or later |
-
----
-
-## Links
-
-- Website: [dcade.ai](https://dcade.ai)
-- Teams Web App: [teams.dcade.ai](https://teams.dcade.ai)
-- Pricing: [dcade.ai/pricing](https://dcade.ai/pricing)
-
----
+### Teams ($20/seat/month)
+- Collaborative knowledge bases
+- RAG-powered document Q&A
+- Real-time team updates via WebSocket
 
 ## Privacy
 
-D'Cade is private by default:
+All data is stored locally by default with AES-256-GCM encryption. Cloud features are optional and use end-to-end encryption. No telemetry, no tracking, no data leaves your machine unless you explicitly enable sync or backup.
 
-- All data stored locally on your device
-- AES-256-GCM encryption for your notes
-- Cloud features (backup, sync) are opt-in and end-to-end encrypted
-- No analytics, no tracking, no data collection
+## Links
 
----
-
-## License
-
-Proprietary software. See [Terms of Service](https://dcade.ai/terms).
-
-Copyright © 2025 D'Cade. All rights reserved.
+- **Website:** [dcade.ai](https://dcade.ai)
+- **Teams:** [teams.dcade.ai](https://teams.dcade.ai)
