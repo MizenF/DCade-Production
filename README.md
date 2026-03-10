@@ -8,22 +8,22 @@ D'Cade is not an app you "open." It lives quietly on your machine, ready when yo
 
 | Platform | Status | Link |
 |----------|--------|------|
-| **Windows** | v2.0.0 | [DCade-Setup.exe](https://github.com/MizenF/DCade-Production/releases/latest/download/DCade-Setup.exe) |
+| **Windows** | v2.0.2 | [DCade-Setup.exe](https://github.com/MizenF/DCade-Production/releases/latest/download/DCade-Setup.exe) |
 | **macOS** | Coming Soon | — |
 
 **Requirements:** Windows 10+ (x64)
 
-## What's New in v2.0.0
+## What's New in v2.0.2
 
-**Commander/Agent Architecture** — Complete UI overhaul with the new Bar navigation system. Click the Orb to reveal a sliding status bar with quick access to Catalogue, Teams, Notifications, and Settings.
+**Recording Agent** — Long-form recording with unlimited duration, independent transcription pipeline, crash recovery, and dedicated RecordingPanel UI with real-time progress.
 
-**Pro Subscription Management** — Full lifecycle support: upgrade via Google OAuth, manage billing, cancel anytime from Settings.
+**Teams UI Overhaul** — Compact panel layout with custom KB dropdown for better space efficiency.
 
-**Speech-to-Text** — Hold `Ctrl+Shift+`` to dictate. Context-aware routing sends transcriptions to the right place (Commander, Agent, or Editor).
+**Settings Panel Redesign** — Cleaner, reorganized Settings panel with refreshed visuals.
 
-**Security Hardened** — 6 rounds of security audits covering payment webhooks, authentication, CORS, CSP, and data encryption. 100+ issues identified and resolved.
+**STT Model Upgrade** — Transcription model updated to gpt-4o-transcribe for improved accuracy.
 
-**Teams Integration** — Enterprise knowledge bases with RAG-powered Q&A, accessible from the desktop app via the Bar.
+**Bug Fixes** — Bar icons now refresh after OAuth login, RecordingPanel background rendering fixed, device conflict resolution on restart improved.
 
 ## Quick Start
 
@@ -44,7 +44,8 @@ D'Cade is not an app you "open." It lives quietly on your machine, ready when yo
 ### Pro ($8/month or $70/year)
 - Emotion-Orb (ambient color based on time/theme)
 - AI Command Bar (intent-based routing)
-- Speech-to-Text dictation
+- Speech-to-Text dictation (mic / system audio / mixed)
+- Recording Agent (unlimited duration transcription)
 - Cloud backup (end-to-end encrypted)
 - Multi-device sync
 - Unlimited Heads
